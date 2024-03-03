@@ -1,0 +1,43 @@
+*{
+  color: black;
+  list-style: none;
+}
+
+
+.list {
+  border: 2px solid black;
+  height: 160px;
+  width: 200px;
+  line-height: 25px;
+  padding: 15px;
+}
+
+.parent-list {
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  gap: 20px;
+}
+
+.header {
+  height: 41px;
+  font-weight: 700;
+  line-height: 41.15px;
+}
+
+.input {
+  width: 1408px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.btn {
+  margin: 15px 0;
+  width: 120px;
+  background-color: rgb(37, 37, 37);
+  border-radius: 5px;
+  color: white;
+  height: 30px;
+}
